@@ -1,0 +1,15 @@
+.heart{
+    width: 20px;
+    margin: 0;
+}
+
+.foot{
+    text-align: center;
+    background-color: #000080;
+    padding: 10px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}

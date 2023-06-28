@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+
+.inp {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+    padding: 20px;
+}
+
+.form--inp {
+    font-family: "Karla", sans-serif;
+}
+
+input{
+    border: 3px solid #0A6EBD;
+    border-radius: 10px;
+    background-color: #E3F6FF;
+    text-align: center;
+    font-size: 18px;
+    height: 40px;
+}
+
+.btn {
+    grid-column: 1 / -1;
+    font-family: 'Noto Serif', serif;
+    border-radius: 10px;
+    background-color: #000080;
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #0000A2;
+}
+
+.meme {
+    position: relative;
+}
+
+.meme-img {
+    position: relative;
+    left: 10%;
+    width: auto;
+    height: 400px;
+    border-radius: 3px;
+}
+
+.meme-text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: impact, sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.top{
+    top: 0;
+}
+.bottom{
+    bottom: 0;
+}
+
+@media only screen and (max-width: 320px) {
+    input{
+        grid-column: 1 / -1;
+    }
+}
